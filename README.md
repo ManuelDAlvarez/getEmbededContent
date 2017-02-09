@@ -27,4 +27,4 @@ http://wwww.site-x.com/c/this-weeks-deals
 http://wwww.site-x.com/s/footwear
 
 
-Note: I tood the Regex from https://github.com/oelu/get_urls. I could not made that code run so I created my own cript https://github.com/oelu/get_urls
+Note: I took the Regex from https://github.com/oelu/get_urls. I could not made that code run so I created my own cript https://github.com/oelu/get_urls
