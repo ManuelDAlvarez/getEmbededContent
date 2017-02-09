@@ -6,6 +6,7 @@ How to run it?
 $ python getEmbededContent.py
 
 
+
 The python scrip takes a text file as an input with a list of URLs separated by new line. The requiriments is that all the URLs on the input file are from the same domain you are connecting to.
 
 
@@ -13,7 +14,8 @@ At this moment you need to edit the script to add the domain you want to connect
 
 Line to update: Replace wwww.site-x.com with your domain on the below line
 
-conn = httplib.HTTPConnection("wwww.site-x.com", port=80)
+  conn = httplib.HTTPConnection("wwww.site-x.com", port=80)
+
 
 
 URLS.txt would look something like
@@ -27,4 +29,5 @@ http://wwww.site-x.com/c/this-weeks-deals
 http://wwww.site-x.com/s/footwear
 
 
-Note: I took the Regex from https://github.com/oelu/get_urls. I could not made that code run so I created my own cript https://github.com/oelu/get_urls
+
+Note: I took the Regex from https://github.com/oelu/get_urls. I could not make that code run so I created my own script 
