@@ -4,7 +4,7 @@ from sys import argv
 import re
 
 # Open connection to domain
-conn = httplib.HTTPConnection("www.dickssportinggoods.com", port=80)
+conn = httplib.HTTPConnection("www.domain-x.com", port=80)
 
 #inputs. URLS.txt is the list of URLs on domain wwww.site-x.com
 file_name = "URLS.txt"
